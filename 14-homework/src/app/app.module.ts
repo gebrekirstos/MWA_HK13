@@ -4,16 +4,16 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { CompExamples } from './app.examples';
-import { PipeComponent } from './app.pipeExamples'
-import { UpperCaseText } from './app.myDirective';
+// new added
+import { CustomListComponent } from './custom.component';
+import { UpperDirective } from './upper.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CompExamples,
-    PipeComponent,
-    UpperCaseText,
+    // new added
+    CustomListComponent,
+    UpperDirective,
   ],
   imports: [
     BrowserModule,
